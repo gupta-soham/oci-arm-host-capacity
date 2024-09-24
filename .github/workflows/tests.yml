@@ -8,8 +8,8 @@ on:
     branches:
       - main
 
-  schedule:
-    - cron: "*/5 * * * *" # Runs every 5 minutes
+  # schedule:
+  #   - cron: "*/5 * * * *" # Runs every 5 minutes
   workflow_dispatch: # Enables manual triggering
 
 jobs:
